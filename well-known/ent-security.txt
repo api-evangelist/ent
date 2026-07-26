@@ -1,0 +1,7 @@
+# Ent Security — vulnerability disclosure (RFC 9116)
+# If you've found a security issue, please reach out via the contact below.
+Contact: https://ent.ai/contact
+Expires: 2027-06-14T00:00:00.000Z
+Preferred-Languages: en
+Canonical: https://ent.ai/.well-known/security.txt
+Hiring: https://ent.ai/joinus

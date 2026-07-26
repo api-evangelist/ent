@@ -1,7 +1,13 @@
 aid: ent
 name: Ent
-description: Ent is a company surfaced as a portfolio company of felicis and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: 'Ent is an intent-aware security platform for the enterprise that protects
+  work as it happens. The company reads human, AI agent, and application activity in
+  real time to understand intent and act at the moment of risk, rather than relying
+  on after-the-fact logs and static policies. Ent is an early-stage security company
+  backed by Felicis and surfaced in the API Evangelist network as a portfolio lead;
+  this profile captures its public web, legal, and security-disclosure surface. No
+  public API, developer portal, SDKs, or OpenAPI have been published to date, so API
+  and specification artifacts are not yet applicable.'
 url: https://raw.githubusercontent.com/api-evangelist/ent/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +15,30 @@ x-backed-by:
 - felicis
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
+image: https://ent.ai/images/og-preview.png
 tags:
 - Company
+- Security
+- Cybersecurity
+- Enterprise Security
+- Intent-Aware Security
+- AI Security
+- Real-Time Security
+- Insider Risk
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +48,36 @@ maintainers:
 common:
 - type: Website
   url: https://ent.ai
+- type: About
+  url: https://ent.ai/company
+- type: Blog
+  url: https://ent.ai/blog
+- type: Contact
+  url: https://ent.ai/contact
+- type: Support
+  url: https://ent.ai/contact
+- type: TermsOfService
+  url: https://ent.ai/terms
+- type: PrivacyPolicy
+  url: https://ent.ai/privacy
+- type: Legal
+  url: https://ent.ai/legal
+- type: Careers
+  url: https://ent.ai/joinus
+- type: Twitter
+  url: https://twitter.com/Ent_Security
+- type: WellKnown
+  url: well-known/ent-well-known.yml
+- type: SecurityTxt
+  url: well-known/ent-security.txt
+- type: Security
+  url: https://ent.ai/.well-known/security.txt
+- type: VulnerabilityDisclosure
+  url: security/ent-vulnerability-disclosure.yml
+- type: DomainSecurity
+  url: security/ent-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
