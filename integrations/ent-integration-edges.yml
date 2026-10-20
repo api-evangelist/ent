@@ -1,0 +1,21 @@
+generated: '2026-10-19'
+method: searched
+checked:
+- https://azuremarketplace.microsoft.com/
+marketplace_apps: []
+edges:
+- partner_name: Microsoft Azure Marketplace
+  partner: microsoft-azure
+  partner_match: aggregator
+  type: marketplace
+  marketplace: azure-marketplace
+  channel: distribution
+  relationship: distribution-channel
+  direction: third-party
+  evidence: https://azuremarketplace.microsoft.com/en-us/marketplace/apps?search=Ent
+  listing_count: 1
+  apps:
+  - Ent
+  seller_name: Ent
+  detected_by: sweep-cloud-marketplaces.py
+  detected: '2026-10-19'
